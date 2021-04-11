@@ -6,3 +6,19 @@
 //
 
 import Foundation
+import Firebase
+
+
+class getNote {
+    
+    var titleArray : [String]
+    var dateArray :  [String]
+    var noteArray : [String]
+    
+    init(titleArray : [String], dateArray : [String], noteArray : [String]) {
+        self.titleArray = titleArray
+        self.noteArray = noteArray
+        self.dateArray = dateArray
+    }
+}
+   

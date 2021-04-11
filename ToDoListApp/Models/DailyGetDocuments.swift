@@ -8,31 +8,26 @@
 import Foundation
 
 struct DailyGetDocuments {
-    
-    var title = String()
-    var date = String()
-    var note = String()
-    var isItDone = String()
-    
-    init(title: String, date: String, note: String, isItDone: String) {
-        self.title = title
-        self.date = date
-        self.note = note
-        self.isItDone = isItDone
-    }
+    var title = [String]()
+    var date = [String]()
+    var note = [String]()
+    var isItDone = [String]()
 }
 
-struct GetDocuments {
+struct WeeklyGetDocuments {
+    var title = [String]()
+    var date = [String]()
+    var note = [String]()
+    var isItDone = [String]()
+}
+
+struct MonthlyGetDocuments {
     var title = [String]()
     var date = [String]()
     var note = [String]()
     var isItDone = [String]()
     
-//    init(title: [String], date: [String], note : [String], isItDone: [String]) {
-//        self.title = title
-//        self.date = date
-//        self.note = note
-//        self.isItDone = isItDone
-//    }
 }
+
+
 
